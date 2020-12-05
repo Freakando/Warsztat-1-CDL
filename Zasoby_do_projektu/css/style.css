@@ -19,17 +19,19 @@ body {
 }
 
 .header {
+    margin: 0 auto;
+    padding: 0 auto;
     display: flex;
     justify-content: center;
     box-shadow: 0 4px 4px var(--color-primary-shadow);
-
-    
-    
+    height: 70px;
 }
 
 .container {
+    margin: 0 auto;
+    padding: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1352px;
 }
 
@@ -38,9 +40,18 @@ body {
     justify-content: space-between;
     width: 300px;
 }
+
 .header-container, .header-nav {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
+.logo {
+    font-family: "Raleway", "san-serif";
+    font-weight: lighter;
+    color: var(--color-primary);
+    font-size: 32px;
+    text-decoration: none;
+    margin: 136px;
+}
