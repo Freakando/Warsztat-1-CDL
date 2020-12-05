@@ -19,6 +19,7 @@ body {
 }
 
 .header {
+    background-size: contain;
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
@@ -36,15 +37,15 @@ body {
 }
 
 .header-nav {
-    display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 500px;
+    margin-right: 137px;
+    margin-left: 137px;
 }
 
 .header-container, .header-nav {
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
 
 .logo {
@@ -53,5 +54,25 @@ body {
     color: var(--color-primary);
     font-size: 32px;
     text-decoration: none;
-    margin: 136px;
+    margin-left: 137px;
 }
+
+.nav-link {
+    text-decoration: none;
+    font-family: "Open Sans", "san-serif";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3.30px;
+    color: var(--color-grey);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav-link:hover {
+    color: var(--color-black);
+    padding-top: 28px;
+    padding-bottom: 27px;
+    border-bottom: 4px solid var(--color-primary);
+}
+
