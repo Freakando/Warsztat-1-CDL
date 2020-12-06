@@ -37,7 +37,7 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
-    max-width: 1352px;
+    width: 1352px;
 
 }
 
@@ -151,20 +151,20 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
-    max-width: 1352px;
+    width: 1352px;
 }
 
 .title-h2-box {
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
+    justify-content: center;
     height: 42px;
+    width: 1350px;
     
 }
 
 .stat-title {
-    width: 750px;
-    height: 42px;
     font-family: "Raleway", "san-serif";
     font-weight: 400;
     font-size: 36px;
@@ -178,19 +178,23 @@ body {
 .box-container {
     margin: 0 auto;
     padding: 0 auto;
+    padding-top: 101px;
     display: flex;
     justify-content: center;
+    width: 1350px;
 }
 
 .icon-box {
+    width: 840px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .stat-column {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .column-1 {
@@ -246,3 +250,19 @@ body {
     padding-top: 6px;
 }
 
+.stat-number-box {
+    padding-top: 14px;
+    font-family: "Raleway", "san-serif";   
+    font-weight: 800;
+    letter-spacing: 6px;
+
+}
+
+.stat-text-box {
+    padding-top: 19px;
+    font-family: "Raleway" "san-serif";
+    font-size: 400;
+    color: var(--color-grey);
+    width: 100px;
+    text-align: center;
+}
