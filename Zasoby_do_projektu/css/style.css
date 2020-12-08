@@ -22,12 +22,11 @@ body {
 /*-----------------------------HEADER---------------------------*/
 
 .header {
-    width: 100vw;
-    background-size: contain;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: calc(200px - 70px);
+    margin-bottom: calc(200px - 80px);
     padding: 0 auto;
-    display: flex;
+    display: flex; 
     justify-content: center;
     box-shadow: 0 4px 4px var(--color-primary-shadow);
     height: 70px;
@@ -37,21 +36,21 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
-    width: 1352px;
+    
 
 }
 
 .header-nav {
+    display: flex;
     justify-content: space-around;
-    width: 500px;
-    margin-right: 137px;
-    margin-left: 137px;
+    width: 675px;
 }
 
-.header-container, .header-nav {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1352px;
 }
 
 .logo {
@@ -60,7 +59,7 @@ body {
     color: var(--color-primary);
     font-size: 32px;
     text-decoration: none;
-    margin-left: 137px;
+    
 }
 
 .nav-link {
@@ -71,8 +70,7 @@ body {
     font-size: 11px;
     letter-spacing: 3.30px;
     color: var(--color-grey);
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0 15px 0 15px;
 }
 
 .nav-link:hover {
@@ -90,10 +88,10 @@ body {
     margin: 0;
     margin-bottom: 100px;
     padding: 0 auto;
-    width: 100wv;
-    height: 594px;
+    width: 100%;
+    height: 600px;
     background-image: url("../assets/Background.png");
-    background-position: bottom;
+    background-position:  bottom;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -140,7 +138,7 @@ body {
 /*------STATISTIC SECTION-----------------*/
 
 .section-statistic {
-    background-size: contain;
+    background-position: center;
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
@@ -148,10 +146,12 @@ body {
 }
 
 .statistic-container {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 0 auto;
     display: flex;
-    width: 1352px;
+    max-width: 1352px;
 }
 
 .title-h2-box {
@@ -160,7 +160,6 @@ body {
     display: flex;
     justify-content: center;
     height: 42px;
-    width: 1350px;
     
 }
 
@@ -178,10 +177,10 @@ body {
 .box-container {
     margin: 0 auto;
     padding: 0 auto;
-    padding-top: 101px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
-    width: 1350px;
+    max-width: 1352px;
 }
 
 .icon-box {
@@ -266,3 +265,101 @@ body {
     width: 100px;
     text-align: center;
 }
+
+
+
+
+
+/*-----------------BENEFITY-------------------*/
+
+
+.benefits-section {
+        margin: 0 auto;
+        padding: 0 auto;
+        display: flex;
+}
+
+.benefits-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex; 
+    justify-content: center;
+    background-color: var(--color-light-grey);
+}
+
+.benefits-block {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+
+    background-color: none;
+
+}
+
+.benefit-box-1 {
+    display: flex;
+    height: 307px;
+    width: 1124px;
+    background-color: var(--color-white);
+
+}
+
+.text-benefits-box-1 {
+    height: 188px;
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.title-benefits-1 {
+    font-family: "Raleway", "san-serif";
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--color-black);
+    text-align: left;
+}
+
+.article-benefits-1 {
+    font-family: "Open Sans", "san-serif";
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-black);
+    text-align: left;
+}
+
+.underline-benefits-1 {
+    height: 2px;
+    width: 327px;
+    background-color: var(--color-redish);
+
+}
+
+.img-element-box-1-benefits {
+    height: 294px;
+    width: 433px;
+ /*   display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;*/
+}
+
+.img-1-element-benefits {
+    height: 219px;
+    width: 386px;
+    background-image: url("../assets/Macbook.png");
+    background-size: contain;
+    position: relative;
+}
+
+.red-square-box {
+    height: 294px;
+    width: 433px;
+    position: absolute;
+
+}
+
+
+
