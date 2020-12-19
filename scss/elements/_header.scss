@@ -1,0 +1,42 @@
+.header {
+    box-shadow: 0 .4rem .4rem $color-primary-shadow;
+    height: 7.0rem;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    &__container  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-around;
+        width: 67.5rem;
+    }
+
+    .nav__link {
+        text-decoration: none;
+        font-family: $font-open-sans;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        letter-spacing: .330rem;
+        color: $color-grey;
+        padding: 0 .15rem 0 .15rem;
+
+        &:hover {
+            color: $color-black;
+            padding-top: 2.8rem;
+            padding-bottom: 2.7rem;
+            border-bottom: .4rem solid $color-primary;
+        } 
+    }
+}
+
+
+
+
+

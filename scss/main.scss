@@ -1,7 +1,12 @@
 @import "generic/reset";
+@import "settings/fonts";
+@import "settings/colors";
+@import "settings/mixins";
 @import "elements/base";
+@import "settings/all";
+@import "elements/header";
+@import "elements/opening_section";
+@import "elements/statistic";
+@import "elements/benefity";
 @import "elements/content";
 @import "elements/footer";
-@import "elements/header";
-@import "set/all";
-@import "set/colors";

@@ -359,4 +359,352 @@ textarea {
   color: #000;
   padding: 0.2em 0;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.container {
+  max-width: 135.2rem;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: "Raleway", "san-serif";
+  font-weight: lighter;
+  color: #08A6E4;
+  font-size: 3.2rem;
+  text-decoration: none;
+}
+
+.header {
+  box-shadow: 0 0.4rem 0.4rem rgba(7, 172, 230, 0.16);
+  height: 7rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  width: 67.5rem;
+}
+.header .nav__link {
+  text-decoration: none;
+  font-family: "Open Sans", "san-serif";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.33rem;
+  color: #A5A5A5;
+  padding: 0 0.15rem 0 0.15rem;
+}
+.header .nav__link:hover {
+  color: #000000;
+  padding-top: 2.8rem;
+  padding-bottom: 2.7rem;
+  border-bottom: 0.4rem solid #08A6E4;
+}
+
+.opening-section {
+  margin: 0;
+  margin-bottom: 100px;
+  padding: 0 auto;
+  width: 100%;
+  height: 600px;
+  background-image: url("../assets/Background.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.opening-section .openign-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 100px;
+}
+.opening-section .web-title {
+  padding-bottom: 20px;
+  font-family: "Raleway", "san-serif";
+  font-weight: 400;
+  font-size: 49px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.opening-section .web-intro {
+  padding-bottom: 38px;
+  font-family: "Open Sans", "san-serif";
+  font-weight: 400;
+  font-size: 16px;
+}
+.opening-section .cta-btn {
+  font-family: "Open Sans", "san-serif";
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #08A6E4;
+  width: 440px;
+  height: 67px;
+  border: none;
+  border-radius: 50px;
+}
+
+.statistic__section {
+  margin: 0 auto 15rem;
+  /*------- ICON COLUMNS-------------*/
+}
+.statistic__section .statistic__wrapper {
+  max-width: 1352px;
+}
+.statistic__section .statistic__wrapper .stat-title {
+  font-family: "Raleway", "san-serif";
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+.statistic__section .box-container {
+  margin: 0 auto;
+  padding-top: 100px;
+  max-width: 800px;
+}
+.statistic__section .box-container .icon-box {
+  display: flex;
+  justify-content: space-between;
+}
+.statistic__section .box-container .stat-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statistic__section .box-container .column-1 {
+  height: 140px;
+  width: 116px;
+}
+.statistic__section .box-container .column-2 {
+  height: 167px;
+  width: 176px;
+}
+.statistic__section .box-container .column-3 {
+  height: 168px;
+  width: 162px;
+}
+.statistic__section .box-container .circle {
+  width: 62.71px;
+  height: 62.71px;
+  border-radius: 50%;
+  position: relative;
+}
+.statistic__section .box-container .red-circle {
+  background-color: #FB3B64;
+}
+.statistic__section .box-container .blue-circle {
+  background-color: #08A6E4;
+}
+.statistic__section .box-container .green-circle {
+  background-color: #55DFB4;
+}
+.statistic__section .box-container .icon-image {
+  position: absolute;
+}
+.statistic__section .box-container .person-img {
+  padding-left: calc(62.71px / 2 - 1px);
+  padding-top: 3px;
+}
+.statistic__section .box-container .eye-img {
+  padding-left: calc(62.71px - 42px);
+  padding-top: 14.25px;
+}
+.statistic__section .box-container .catalog-img {
+  padding-left: calc(62.71px / 2);
+  padding-top: 6px;
+}
+.statistic__section .box-container .stat-number-box {
+  padding-top: 14px;
+  font-family: "Raleway", "san-serif";
+  font-weight: 800;
+  letter-spacing: 6px;
+}
+.statistic__section .box-container .stat-text-box {
+  padding-top: 19px;
+  font-family: "Raleway", "san-serif";
+  font-size: 400;
+  color: #A5A5A5;
+  width: 100px;
+  text-align: center;
+}
+
+.benefits__section {
+  margin: 0 auto;
+  padding: 10rem 0;
+  width: 100%;
+  height: 100rem;
+  background-color: #F7F7F7;
+}
+.benefits__section .benefits__container {
+  padding: 0 100px;
+}
+.benefits__section .benefits__container .benefits__block {
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: none;
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 {
+  padding-top: 3rem;
+  height: 390px;
+  width: 1124px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #ffffff;
+  border: 1px solid #E8E9ED;
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  height: 100%;
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__title {
+  font-family: "Raleway", "san-serif";
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+  text-align: left;
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__article {
+  font-family: "Open Sans", "san-serif";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__underline {
+  height: 4px;
+  width: 327px;
+  background-color: #FB3B64;
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 294px;
+  width: 433px;
+  position: relative;
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1::before {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background-color: #FB3B64;
+  display: block;
+  border-radius: 40px;
+  position: absolute;
+  right: 0;
+  top: -5%;
+  transform: rotate(45deg);
+}
+.benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1 .benefits__laptopImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 219px;
+  background-size: contain;
+  z-index: 2;
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone {
+  padding-top: 3rem;
+  height: 390px;
+  width: 1124px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+  border: 1px solid #E8E9ED;
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  height: 100%;
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__title {
+  font-family: "Raleway", "san-serif";
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+  text-align: left;
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__article {
+  font-family: "Open Sans", "san-serif";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__underline {
+  height: 4px;
+  width: 327px;
+  background-color: #FB3B64;
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 294px;
+  position: relative;
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1::before {
+  content: "";
+  width: 320px;
+  height: 100%;
+  background-color: #08A6E4;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  right: 100px;
+  top: -11%;
+  transform: rotate(45deg);
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1 .benefits__iphone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 328px;
+  background-size: contain;
+  z-index: 2;
+}
+.benefits__section .benefits__container .benefits__block .benefits__3rdImgBox {
+  background-color: #55DFB4;
+  height: 390px;
+  width: 400px;
+}
+.benefits__section .benefits__container .benefits__block .benefits__3rdImgBox__imgBcg {
+  background-color: #55DFB4;
+}
 /*# sourceMappingURL=main.css.map */

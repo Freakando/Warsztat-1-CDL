@@ -1,0 +1,24 @@
+html { font-size: 62.5%; 
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container {
+    max-width: 135.2rem;
+    margin: 0 auto;   
+}
+
+.logo {
+    font-family: $font-raleway;
+    font-weight: lighter;
+    color: $color-primary;
+    font-size: 3.2rem;
+    text-decoration: none; 
+}
