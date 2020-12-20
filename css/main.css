@@ -420,7 +420,7 @@ body {
   border-bottom: 0.4rem solid #08A6E4;
 }
 
-.opening-section {
+.opening__section {
   margin: 0;
   margin-bottom: 100px;
   padding: 0 auto;
@@ -433,14 +433,14 @@ body {
   display: flex;
   justify-content: center;
 }
-.opening-section .openign-container {
+.opening__section .opening__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding-bottom: 100px;
 }
-.opening-section .web-title {
+.opening__section .opening__web-title {
   padding-bottom: 20px;
   font-family: "Raleway", "san-serif";
   font-weight: 400;
@@ -448,13 +448,13 @@ body {
   text-transform: capitalize;
   color: #000000;
 }
-.opening-section .web-intro {
+.opening__section .opening__web-intro {
   padding-bottom: 38px;
   font-family: "Open Sans", "san-serif";
   font-weight: 400;
   font-size: 16px;
 }
-.opening-section .cta-btn {
+.opening__section .opening__cta-btn {
   font-family: "Open Sans", "san-serif";
   font-size: 16px;
   color: #ffffff;
@@ -558,7 +558,7 @@ body {
   background-color: #F7F7F7;
 }
 .benefits__section .benefits__container {
-  padding: 0 100px;
+  padding: 0 10rem;
   max-width: 135.2rem;
 }
 .benefits__section .benefits__container .benefits__block {
@@ -571,19 +571,21 @@ body {
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 {
   padding: 3rem 11rem 3rem 11rem;
-  height: 390px;
-  min-width: 1124px;
+  height: 39rem;
+  max-width: 112.4rem;
+  width: 100%;
+  min-width: 80rem;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   background-color: #ffffff;
-  border: 1px solid #E8E9ED;
+  border: 0.1rem solid #E8E9ED;
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 {
   padding-top: 7rem;
   padding-bottom: 7rem;
   height: 100%;
-  width: 416px;
+  width: 41.6rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -592,37 +594,37 @@ body {
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__title {
   font-family: "Raleway", "san-serif";
   font-weight: 400;
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #000000;
   text-align: left;
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__article {
   font-family: "Open Sans", "san-serif";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #000000;
   text-align: left;
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__underline {
-  height: 4px;
-  width: 327px;
+  height: 0.4rem;
+  width: 32.7rem;
   background-color: #FB3B64;
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 294px;
-  max-width: 433px;
+  height: 29.4rem;
+  max-width: 43.3rem;
   position: relative;
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1::before {
   content: "";
-  width: 180px;
-  height: 180px;
+  width: 18rem;
+  height: 18rem;
   background-color: #FB3B64;
   display: block;
-  border-radius: 40px;
+  border-radius: 4rem;
   position: absolute;
   right: 0;
   top: -5%;
@@ -632,15 +634,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 219px;
+  height: 21.9rem;
   background-size: contain;
   z-index: 2;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone {
-  margin-top: 40px;
+  margin-top: 4rem;
   padding-top: 3rem;
-  height: 390px;
-  width: 1124px;
+  height: 39rem;
+  max-width: 112.4rem;
+  min-width: 80rem;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -652,7 +656,7 @@ body {
   padding-top: 7rem;
   padding-bottom: 7rem;
   height: 100%;
-  width: 416px;
+  width: 41.6rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -661,39 +665,39 @@ body {
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__title {
   font-family: "Raleway", "san-serif";
   font-weight: 400;
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #000000;
   text-align: left;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__article {
   font-family: "Open Sans", "san-serif";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #000000;
   text-align: left;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__underline {
-  height: 4px;
-  width: 327px;
+  height: 0.4rem;
+  width: 32.7rem;
   background-color: #08A6E4;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 294px;
-  max-width: 430px;
+  height: 29.4rem;
+  max-width: 43rem;
   position: relative;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1::before {
   content: "";
-  width: 320px;
+  width: 32rem;
   height: 100%;
   background-color: #08A6E4;
   display: block;
   border-radius: 50%;
   position: absolute;
-  right: 100px;
+  right: 10rem;
   top: -11%;
   transform: rotate(45deg);
 }
@@ -701,31 +705,33 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 425px;
+  width: 42.5rem;
   height: auto;
   background-size: contain;
   z-index: 2;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet {
-  margin-top: 40px;
-  height: 390px;
-  min-width: 1124px;
+  margin-top: 4rem;
+  height: 39rem;
+  max-width: 112.4rem;
+  min-width: 80rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__textBoxWrapper {
-  height: 390px;
-  width: 620px;
+  height: 39rem;
+  width: 62rem;
   background-color: #ffffff;
-  margin-right: 60px;
+  margin-right: 6rem;
   display: flex;
   justify-content: center;
-  border: 1px solid #E8E9ED;
+  border: 0.1rem solid #E8E9ED;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__textBoxWrapper .benefits__textBox {
   padding-top: 7rem;
   padding-bottom: 7rem;
-  max-width: 416px;
+  max-width: 41.6rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -733,23 +739,23 @@ body {
   justify-content: space-around;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__textBoxWrapper .benefits__textBox .benefits__title3 {
-  width: 416px;
+  width: 41.6rem;
   font-family: "Raleway", "san-serif";
   font-weight: 400;
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #000000;
   text-align: left;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__textBoxWrapper .benefits__textBox .benefits__article3 {
   font-family: "Open Sans", "san-serif";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #000000;
   text-align: left;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__textBoxWrapper .benefits__textBox .benefits__underline3 {
-  height: 4px;
-  width: 327px;
+  height: 0.4rem;
+  width: 32.7rem;
   background-color: #FB3B64;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__imgTrumpet {
@@ -759,9 +765,9 @@ body {
   justify-content: center;
   background-color: #55DFB4;
   border: none;
-  height: 390px;
+  height: 39rem;
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__imgTrumpet .trumpet {
-  height: 200px;
+  height: 20rem;
 }
 /*# sourceMappingURL=main.css.map */

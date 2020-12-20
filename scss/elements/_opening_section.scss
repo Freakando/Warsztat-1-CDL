@@ -1,4 +1,4 @@
-.opening-section {
+.opening__section {
         margin: 0;
         margin-bottom: 100px;
         padding: 0 auto;
@@ -11,14 +11,16 @@
         display: flex;
         justify-content: center;
     
-    .openign-container {
+    .opening__container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         padding-bottom: 100px;
+
+        
     }
-    .web-title {
+    .opening__web-title {
         padding-bottom: 20px;
         font-family: $font-raleway;
         font-weight: 400;
@@ -26,13 +28,13 @@
         text-transform: capitalize;
         color: $color-black;
     }
-    .web-intro {
+    .opening__web-intro {
         padding-bottom: 38px;
         font-family: $font-open-sans;
         font-weight: 400;
         font-size: 16px;
     }
-    .cta-btn {
+    .opening__cta-btn {
         font-family: $font-open-sans;
         font-size: 16px;
         color: $color-white;
