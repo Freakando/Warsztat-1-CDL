@@ -631,9 +631,19 @@ body {
   height: 145rem;
   background-color: #F7F7F7;
 }
+@media (max-width: 1024px) {
+  .benefits__section {
+    padding: 50px 0;
+  }
+}
 .benefits__section .benefits__container {
   padding: 0 10rem;
   max-width: 135.2rem;
+}
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container {
+    padding: 0 15px;
+  }
 }
 .benefits__section .benefits__container .benefits__block {
   margin: 0 auto;
@@ -648,12 +658,21 @@ body {
   height: 39rem;
   max-width: 112.4rem;
   width: 100%;
-  min-width: 80rem;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   background-color: #ffffff;
   border: 0.1rem solid #E8E9ED;
+}
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__box1 {
+    flex-direction: column-reverse !important;
+    align-items: center;
+    padding: 15px 20px !important;
+    justify-content: center;
+    width: 60%;
+    min-width: 314px;
+  }
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 {
   padding-top: 7rem;
@@ -665,12 +684,25 @@ body {
   text-align: center;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0;
+    width: 280px;
+  }
+}
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__title {
   font-family: "Raleway", "san-serif";
   font-weight: 400;
   font-size: 3.6rem;
   color: #000000;
   text-align: left;
+}
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__title {
+    font-size: 2.9rem;
+  }
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__article {
   font-family: "Open Sans", "san-serif";
@@ -679,10 +711,20 @@ body {
   color: #000000;
   text-align: left;
 }
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__article {
+    font-size: 1.3rem;
+  }
+}
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__underline {
   height: 0.4rem;
   width: 32.7rem;
   background-color: #FB3B64;
+}
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__textbox1 .benefits__underline {
+    display: none;
+  }
 }
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1 {
   display: flex;
@@ -704,6 +746,15 @@ body {
   top: -5%;
   transform: rotate(45deg);
 }
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1::before {
+    width: 9rem;
+    height: 9rem;
+    right: 50px;
+    top: 10px;
+    border-radius: 2rem;
+  }
+}
 .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1 .benefits__laptopImg {
   display: flex;
   align-items: center;
@@ -712,12 +763,16 @@ body {
   background-size: contain;
   z-index: 2;
 }
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__box1 .benefits__imgBox1 .benefits__laptopImg {
+    height: 65%;
+  }
+}
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone {
   margin-top: 4rem;
   padding-top: 3rem;
   height: 39rem;
   max-width: 112.4rem;
-  min-width: 80rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -725,6 +780,16 @@ body {
   flex-direction: row-reverse;
   background-color: #ffffff;
   border: 1px solid #E8E9ED;
+}
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone {
+    flex-direction: column-reverse !important;
+    align-items: center;
+    padding: 30px 20px 10px !important;
+    justify-content: center;
+    width: 60%;
+    min-width: 314px;
+  }
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 {
   padding-top: 7rem;
@@ -734,7 +799,15 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0;
+    width: 280px;
+  }
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__title {
   font-family: "Raleway", "san-serif";
@@ -743,6 +816,11 @@ body {
   color: #000000;
   text-align: left;
 }
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__title {
+    font-size: 2.9rem;
+  }
+}
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__article {
   font-family: "Open Sans", "san-serif";
   font-weight: 400;
@@ -750,12 +828,22 @@ body {
   color: #000000;
   text-align: left;
 }
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__article {
+    font-size: 1.3rem;
+  }
+}
 .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__underline {
   height: 0.4rem;
   width: 32.7rem;
   background-color: #08A6E4;
 }
-.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1 {
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__textbox1 .benefits__underline {
+    display: none;
+  }
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -763,10 +851,15 @@ body {
   max-width: 43rem;
   position: relative;
 }
-.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1::before {
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox2 {
+    width: 27rem;
+  }
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox2::before {
   content: "";
   width: 32rem;
-  height: 100%;
+  height: 32rem;
   background-color: #08A6E4;
   display: block;
   border-radius: 50%;
@@ -775,27 +868,44 @@ body {
   top: -11%;
   transform: rotate(45deg);
 }
-.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox1 .benefits__iphone {
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox2::before {
+    width: 15.5rem;
+    height: 15.5rem;
+    right: 75px;
+    top: -15px;
+  }
+}
+.benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox2 .benefits__iphone {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 42.5rem;
-  height: auto;
   background-size: contain;
   z-index: 2;
+}
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxIphone .benefits__imgBox2 .benefits__iphone {
+    width: 70%;
+  }
 }
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet {
   margin-top: 4rem;
   height: 39rem;
   max-width: 112.4rem;
-  min-width: 80rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .benefits__section .benefits__container .benefits__block .benefits__boxTrumpet .benefits__textBoxWrapper {
   height: 39rem;
-  width: 62rem;
+  width: 60%;
   background-color: #ffffff;
   margin-right: 6rem;
   display: flex;
