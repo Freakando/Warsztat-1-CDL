@@ -41,11 +41,11 @@
                 border: .1rem solid $color-for-border;
 
                 @include tablet {
-                    flex-direction: column-reverse !important;
+                    flex-direction: column-reverse ;
                     align-items: center;
-                    padding: 15px 20px !important;
+                    padding: 15px 20px ;
                     justify-content: center;
-                    width: 60%;
+                    width: 31.4rem;
                     min-width: 314px;
                 }
 
@@ -76,9 +76,7 @@
                         color: $color-black;
                         text-align: left;
 
-                        @include tablet {
-                            font-size: 2.9rem;
-                        }
+                        
                     }
                 
             
@@ -89,9 +87,7 @@
                         color: $color-black;
                         text-align: left;
 
-                        @include tablet {
-                            font-size: 1.3rem;
-                        }
+                       
                     }
                 
                     .benefits__underline {
@@ -174,11 +170,11 @@
                 border: 1px solid $color-for-border;
 
                 @include tablet {
-                    flex-direction: column-reverse !important;
+                    flex-direction: column-reverse; 
                     align-items: center;
-                    padding: 30px 20px 10px !important;
+                    padding: 30px 20px 10px; 
                     justify-content: center;
-                    width: 60%;
+                    width: 31.4rem;
                     min-width: 314px;
                 }
 
@@ -207,9 +203,7 @@
                         color: $color-black;
                         text-align: left;
 
-                        @include tablet {
-                            font-size: 2.9rem;
-                        }
+                    
                     }
                 
             
@@ -220,9 +214,7 @@
                         color: $color-black;
                         text-align: left;
 
-                        @include tablet {
-                            font-size: 1.3rem;
-                        }
+                        
                     }
                 
                     .benefits__underline {
@@ -296,12 +288,13 @@
 
             .benefits__boxTrumpet {
                 margin-top: 4rem;
-                height: 39rem;
+                height: 41.5rem;
                 max-width: 112.4rem;
                 
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
+                
 
                 @include tablet {
                     flex-direction: column;
@@ -311,17 +304,25 @@
 
                 .benefits__textBoxWrapper {
                     height: 39rem;
-                    width: 60%;
+                    width: 62.34rem;
                     background-color: $color-white;
                     margin-right: 6rem;
                     display: flex;
                     justify-content: center;
                     border: .1rem solid $color-for-border;
+
+                    @include tablet {
+                        padding-top: 4rem;
+                        margin-right: 0;
+                        min-width: 314px;
+                        height: 50rem;
+                        width: 31.4rem;
+                        
+                    }
                 
                 
                     .benefits__textBox {
-                        padding-top: 7rem;
-                        padding-bottom: 7rem;
+                        padding: 7rem 6rem;
                         max-width: 41.6rem;
                         height: 100%;
                         display: flex;
@@ -329,18 +330,31 @@
                         text-align: center;
                         justify-content: space-around;
 
+                        @include tablet {
+                            margin-top: 3rem;
+                            margin-bottom: 3rem;
+                            width: 280px; 
+                            justify-content: center; 
+                            height: 50%; 
+                            padding: 0; 
+                        }
+
 
                     
 
                         .benefits__title3 {
-                            width: 41.6rem;
-                            
+                            width: 34.8rem;
                             font-family: $font-raleway;
                             font-weight: 400;
                             font-size: 3.6rem;
                             color: $color-black;
                             text-align: left;
                             
+                            @include tablet {
+                                width: 27rem;
+                                padding: 4rem 0;
+                                
+                            }
                             
                             
                         }
@@ -357,6 +371,10 @@
                             height: .4rem;
                             width: 32.7rem;
                             background-color: $color-redish;
+
+                            @include tablet {
+                                display: none;
+                            }
 
                         }
                     
@@ -376,6 +394,7 @@
                     
                     .trumpet {
                         height: 20rem;
+                        width: 31.4rem;
                         
                     }
                 }
