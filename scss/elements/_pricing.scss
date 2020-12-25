@@ -1,0 +1,275 @@
+@mixin pricing-box-properties ($color, $width) {
+    width: $width;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid $color;
+}
+
+
+
+
+
+
+.pricing {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .pricing__sectionTitle {
+        font-family: $font-raleway;
+        font-size: 3.6rem;
+        text-align: center;
+    }
+
+
+    &__boxWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+
+        @include notebook {
+            flex-direction: column;
+        }
+        
+        .pricing-box1 {
+            @include pricing-box-properties ($color-redish, 37rem);
+            @include notebook {
+                margin: 0 0 54px 0;
+            }
+
+
+            .pricing__box-intro {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                
+                .pricing__basic {
+                    font-family: $font-raleway;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 34px 0 14px;
+                }
+                .pricing__price {
+                    font-weight: 300;
+                    font-size: 46px;
+                    color: $color-redish;
+                    margin-bottom: 69px;
+                }
+            }
+            
+            .pricing__list {
+                text-align: center;
+                    
+                .pricing__object-check {
+                    font-size: 14px;
+                    margin-bottom: 20px;
+
+                    &::before {
+                        content: "";
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        background-image: url("../assets/Ckechmark-1.svg");
+                    }
+                
+                }
+                .pricing__object-no {
+                    font-size: 14px;
+                    margin-bottom: 20px;
+
+                    &::before {
+                        content: "";
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        background-image: url("../assets/Close.svg");
+                    }
+                }
+            }
+
+            .btn {
+                font-size: 13px;
+                font-weight: bold;
+                text-decoration: none;
+                color: white;
+                background-color: $color-redish;
+                padding: 16px 57px;
+                border-radius: 25px;
+                position: relative;
+                bottom: -25px;
+
+            }
+
+        }
+
+        .pricing__box2 {
+            @include pricing-box-properties ($color-primary, 40rem);
+            box-shadow: 5px 1px 30px $color-primary-shadow;
+            margin: 0 55px;
+            
+            @include notebook {
+                margin: 0 0 54px 0;
+            }
+
+
+            .pricing__box-intro {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                
+                .pricing__basic {
+                    font-family: $font-raleway;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 34px 0 14px;
+                }
+                .pricing__price {
+                    font-weight: 300;
+                    font-size: 46px;
+                    color: $color-primary;
+                    margin-bottom: 20px;
+                }
+                .pricing__subtitle {
+                    font-family: $font-raleway;
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin-bottom: 61px;
+                    
+                }
+            }
+            
+            .pricing__list {
+                text-align: center;
+                    
+                .pricing__object-check {
+                    font-size: 14px;
+                    margin-bottom: 25px;
+
+                    &::before {
+                        content: "";
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        background-image: url("../assets/Ckechmark-1.svg");
+                    }
+                
+                }
+                .pricing__object-no {
+                    font-size: 14px;
+                    margin-bottom: 20px;
+
+                    &::before {
+                        content: "";
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        background-image: url("../assets/Close.svg");
+                    }
+                }
+            }
+
+            .btn {
+                font-size: 13px;
+                font-weight: bold;
+                text-decoration: none;
+                color: white;
+                background-color: $color-primary;
+                padding: 16px 57px;
+                border-radius: 25px;
+                position: relative;
+                bottom: -25px;
+
+            }
+
+        }
+        
+        .pricing__box3 {
+            @include pricing-box-properties ($color-green, 37rem);
+
+
+            .pricing__box-intro {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                
+                .pricing__basic {
+                    font-family: $font-raleway;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 34px 0 14px;
+                }
+                .pricing__price {
+                    font-weight: 300;
+                    font-size: 46px;
+                    color: $color-green;
+                    margin-bottom: 20px;
+                }
+                .pricing__subtitle {
+                    font-family: $font-raleway;
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin-bottom: 38px;
+                    
+                }
+            }
+            
+            .pricing__list {
+                text-align: center;
+                    
+                .pricing__object-check {
+                    font-size: 14px;
+                    margin-bottom: 20px;
+
+                    &::before {
+                        content: "";
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        background-image: url("../assets/Ckechmark-1.svg");
+                    }
+                
+                }
+                .pricing__object-no {
+                    font-size: 14px;
+                    margin-bottom: 20px;
+
+                    &::before {
+                        content: "";
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        background-image: url("../assets/Close.svg");
+                    }
+                }
+            }
+
+            .btn {
+                font-size: 13px;
+                font-weight: bold;
+                text-decoration: none;
+                color: white;
+                background-color: $color-green;
+                padding: 16px 57px;
+                border-radius: 25px;
+                position: relative;
+                bottom: -25px;
+
+            }
+
+        }
+    }
+}

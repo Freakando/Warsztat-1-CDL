@@ -1,5 +1,10 @@
 .statistic__section {
     margin: 0 auto 15rem;
+
+    @include mobile {
+        margin: 0 auto 1rem;
+    }
+
     .statistic__wrapper {
         max-width: 1352px;
 
@@ -21,12 +26,24 @@
         padding-top: 100px;
         max-width: 800px;
 
+        @include mobile {
+            padding-top: 50px;
+        }
+
         
     
         .icon-box {
             
             display: flex;
             justify-content: space-between;
+
+            @include mobile {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+
         }
         .stat-column {
             display: flex;

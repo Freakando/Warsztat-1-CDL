@@ -10,6 +10,13 @@
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
+
+
+        @include mobile {
+            height: 50rem;
+        }
+        
+        
     
     .opening__container {
         display: flex;
@@ -20,6 +27,7 @@
         
         @include mobile {
             margin-top: 100px;
+            padding-bottom: 10px;
           }
         
     }
@@ -36,6 +44,7 @@
         font-family: $font-open-sans;
         font-weight: 400;
         font-size: 16px;
+        text-align: center;
     }
     .opening__cta-btn {
         font-family: $font-open-sans;
@@ -46,5 +55,11 @@
         height: 67px;
         border: none;
         border-radius: 50px;
+
+        
+        @include mobile {
+            width: 31rem;
+            height: 6.7rem;
+          }
     }
 }
