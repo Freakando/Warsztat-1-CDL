@@ -43,7 +43,7 @@
                 @include tablet {
                     flex-direction: column-reverse ;
                     align-items: center;
-                    padding: 15px 20px ;
+                    padding: 15px 20px 0px;
                     justify-content: center;
                     width: 31.4rem;
                     min-width: 314px;
@@ -75,6 +75,13 @@
                         font-size: 3.6rem;
                         color: $color-black;
                         text-align: left;
+
+
+                        @include tablet {
+                            
+                            padding-bottom: 1rem;
+                            
+                        }
 
                         
                     }
@@ -202,6 +209,7 @@
                         font-size: 3.6rem;
                         color: $color-black;
                         text-align: left;
+                        
 
                     
                     }

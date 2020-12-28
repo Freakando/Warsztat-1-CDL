@@ -9,6 +9,10 @@
       align-items: center;
       padding: 50px 15px;
     }
+
+    .contact__col {
+        width: 50%;
+      }
   
 
   
@@ -28,7 +32,7 @@
     }
   
     &__details {
-        width: 400px;
+        width: 300px;
       display: flex;
       justify-content: flex-start;
       color: $color-grey;
@@ -71,8 +75,8 @@
       
         &__field {
           display: flex;
-          flex-direction: column;           margin-bottom: 42px;
-          
+          flex-direction: column;
+          margin-bottom: 42px;
         }
       
         &__label {
@@ -93,7 +97,7 @@
       
         &__substance {
           margin-top: 30px;
-          width: 405px;
+          width: 100%;
         }
       
         &__checkbox {
@@ -132,19 +136,29 @@
             border-radius: 4px;
           }
       
-          .consent__text {
+          .substance__text {
             margin: 0 10px;
             font-size: 0.75rem;
             color: $color-grey;
             line-height: 17px;
+
+            @include tablet {
+              
+            }
           }
         }
       
         .btn {
-          font-size: 0.8125rem;
+          
           padding: 20px 97px;
           align-self: flex-end;
           margin-top: 20px;
+          font-family: $font-open-sans;
+          font-size: 13px;
+          color: $color-white;
+          background-color: $color-primary;
+          border: none;
+          border-radius: 50px;
         }
     }
       

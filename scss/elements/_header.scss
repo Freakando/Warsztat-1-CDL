@@ -3,6 +3,8 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
     margin-bottom: 7rem;
+
+    
   
     &__container {
       display: flex;
@@ -33,6 +35,11 @@
         &:hover {
           color: $color-black;
           border-color: $color-primary;
+          
+          @include mobile {
+            border-color: transparent;
+          }
+          
         }
       }
     }
